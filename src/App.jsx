@@ -10,7 +10,7 @@ function App() {
 
 	const FetchData = async () => {
 		try {
-			const url = 'https://cookietestback.onrender.com'
+			const url = 'https://cookietestback.onrender.com/api/cookies'
 			const config = {
 				withCredentials: true,
 				origin: true
