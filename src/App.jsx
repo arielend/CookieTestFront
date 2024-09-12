@@ -16,7 +16,7 @@ function App() {
 				origin: true
 			}
 
-			const response = await axios.get(url, config)
+			const response = await axios.post(url, {}, config)
 			if(response){
 				console.log(response)
 			}
